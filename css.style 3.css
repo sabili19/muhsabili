@@ -1,0 +1,29 @@
+body {margin:0;}
+.logo ul{list-style: none;margin: 0;}
+.logo ul li {float: left;}
+.menu {background: blue }
+.menu ul {list-style: none; margin:0; }
+.menu ul li {padding:10px 10px;float:left;}
+.menu ul li a {text-decoration: none;}
+.menu ul li a:hover{background: white }
+.menu ul {list-style: none;padding: 0;margin: 0;}
+.wrapper {width: 100%;margin:0;}
+.clear{clear: both;}
+.menu ul li a:hover
+.class {background: blue;}
+.menu ul ul{
+	background: black;
+	width: 200 px;
+	position; absolute;
+	visibility: hidden;
+	opacity: 0;
+	transition: all .15 ease;
+
+}
+.menu li li{
+	float: none;
+}
+.menu li:hover ul{
+	opacity: 1;
+	visibility: visible;
+}
